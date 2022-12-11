@@ -332,6 +332,19 @@ h1 {
   }
 }
 
+/* AUDIO */
+
+#audio {
+  display: flex;
+  align-content: flex-start;
+  margin-top: -55px;
+}
+
+audio::-webkit-media-controls-panel{
+  opacity: 100;
+  background-color:#fe3311;
+}
+
 /**
 * Mobile Navigation 
 */
